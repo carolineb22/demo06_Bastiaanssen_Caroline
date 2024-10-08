@@ -1,1 +1,53 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/* New Color Palette:
+* Darkest (Secondary):     #A5B68D      (nav bar + text)
+* Cream (Primary):         #EDE8DC      (canvas background + text)
+* Light Green (Text):      #C1CFA1      
+* Pink (Accent):           #E7CCCC      (random shit)
+*/
+
+.bg-info {
+    background-color: #A5B68D !important; /* Light green for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #EDE8DC;            /* Dark green for brand name & nav links for visibility */
+}
+
+.btn-info {
+    color: #f2fbf2;            /* Lightest shade for text on info button for contrast */
+    background-color: #72b372; /* Light green for button background */
+    border-color: #A5B68D;     /* Dark green for button border */
+}
+
+.btn-primary {
+    color: #3e3e3e;            /* Lightest shade for text */
+    font-size: 150%;
+    background-color: #EDE8DC; /* Dark green for primary button background */
+    border-color: #E7CCCC;     /* Pink for border to use as accent */
+    border-width: thin;
+}
+
+.btn-secondary {
+    color: #3e3e3e;            /* Lightest shade for text */
+    font-size: 150%;
+    background-color: #72b372; /* Dark green for primary button background */
+    border-color: #E7CCCC;     /* Pink for border to use as accent */
+    border-width: thin;
+}
+
+body {
+    background-color: #EDE8DC; /* Lightest shade for body background to follow the 60% rule */
+}
+
+.navbar-brand{
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
